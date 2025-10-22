@@ -29,9 +29,9 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('Deliver') {
+        stage('PROD Deploy') {
             steps {
-                echo 'Job Deliver😊'
+                echo 'Job Deploy to PROD😊'
             }
         }
     }
